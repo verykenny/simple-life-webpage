@@ -47,6 +47,17 @@ a:hover, a:active {
   color: #717171;
 }
 
+/* Footer */
+.container-foot {
+  color: #FFFFFF;
+  opacity: .54;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.footer-title {
+  font-weight: 700;
+}
 
 /* ==============
 Layout
@@ -102,4 +113,11 @@ nav li {
     margin-top: 0;
     margin-left: 1em;
   }
+}
+
+/* Footer */
+
+footer {
+  background: #143774;
+  padding: 3em 0 3em;
 }
