@@ -83,3 +83,23 @@ nav li {
   flex-direction: column;
   align-items: center;
 }
+
+@media screen and (min-width: 800px) {
+  .container-nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header {
+    text-align: left;
+  }
+
+  nav ul {
+    flex-direction: row;
+  }
+
+  nav li {
+    margin-top: 0;
+    margin-left: 1em;
+  }
+}
