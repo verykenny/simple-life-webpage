@@ -40,7 +40,7 @@ a:hover, a:active {
 }
 
 .active-page {
-  border-bottom: 1px solid #717171;
+  border-bottom: 2px solid #717171;
 }
 
 .active-page:hover, .active-page:active {
@@ -62,12 +62,8 @@ Layout
 /* Navigation */
 header {
   background: #F8F8F8;
-  padding: 2em 0 2em;
+  padding: 3em 0 4em;
   text-align: center;
-}
-
-.title {
-  margin-bottom: 2em;
 }
 
 nav ul {
@@ -79,7 +75,7 @@ nav ul {
 }
 
 nav li {
-  padding-bottom: 2em;
+  margin-top: 3em;
 }
 
 .container-nav {
